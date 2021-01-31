@@ -1,0 +1,47 @@
+{
+    // Editor
+    "editor.renderWhitespace": "all",
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.dragAndDrop": false,
+    "workbench.enableExperiments": false,
+
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.autoSave": "afterDelay",
+
+    // Theme/Appearance/Workbench
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.preferredLightColorTheme": "Monokai",
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.openDefaultKeybindings": true,
+    "problems.showCurrentInStatus": false,
+
+    // python settings
+    "python.pythonPath": ".venv/bin/python",
+    "python.testing.pytestPath": "pytest",
+    "python.testing.pytestArgs": ["--no-cov"],
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyPath": ".venv/bin/mypy",
+    "python.linting.lintOnSave": true,
+    "files.exclude": {
+        ".mypy_cache": true,
+        ".pytest_cache": true
+    },
+
+    // to be able to get to problems from terminal
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.actions.view.problems"
+    ],
+    "window.zoomLevel": 0,
+    "python.testing.pytestEnabled": true,
+    "editor.codeLens": false
+}
