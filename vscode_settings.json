@@ -15,7 +15,7 @@
     "files.autoSave": "afterDelay",
 
     // Theme/Appearance/Workbench
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "fairyfloss complete",
     "workbench.preferredLightColorTheme": "Monokai",
     "workbench.commandPalette.preserveInput": true,
     "workbench.settings.openDefaultSettings": true,
@@ -24,9 +24,6 @@
 
     // python settings
     "python.pythonPath": ".venv/bin/python",
-    "python.testing.pytestPath": "pytest",
-    "python.testing.pytestArgs": ["--no-cov"],
-    "python.testing.autoTestDiscoverOnSaveEnabled": true,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
     "python.linting.mypyEnabled": true,
@@ -43,5 +40,8 @@
     ],
     "window.zoomLevel": 0,
     "python.testing.pytestEnabled": true,
-    "editor.codeLens": false
+    "editor.codeLens": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    }
 }
