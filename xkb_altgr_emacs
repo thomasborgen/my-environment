@@ -1,0 +1,16 @@
+partial keypad_keys
+xkb_symbols "altgr-emacs" {
+  # replace Caps with AltGr
+  key <CAPS> { [ ISO_Level3_Shift            ] };
+  # Add EMACS cursor keys to be accessed with AltGr
+
+  key <AD03> { [ e, E, End, End              ] };
+  key <AD10> { [ p, P, Up, Up                ] };
+
+  key <AB05> { [ b, B , Left, Left           ] };
+  key <AB06> { [ n, N, Down, Down            ] };
+
+  key <AC01> { [ a, A, Home, Home      ] };
+  key <AC03> { [ d, D, Delete, Delete        ] };
+  key <AC04> { [ f, F, Right, Right          ] };
+};
