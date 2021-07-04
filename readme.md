@@ -16,7 +16,7 @@ ln vscode_settings.json ~/.config/Code/User/settings.json
 
 ## Ubuntu key fixes
 
-Modiefied from this (vim keys guide)[https://itectec.com/ubuntu/ubuntu-configure-caps-lock-as-altgr-and-arrows-like-in-vim/] to emacs keys
+Modiefied from this [vim keys guide](https://itectec.com/ubuntu/ubuntu-configure-caps-lock-as-altgr-and-arrows-like-in-vim/) to emacs keys
 
 This changes Caps lock to altgr and adds emac movement for caps+key
 
