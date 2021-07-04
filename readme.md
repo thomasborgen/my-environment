@@ -29,3 +29,5 @@ ln xkb_altgr_emacs /usr/share/X11/xkb/symbols/altgr_emacs
 Now we need to include the file into all language files that we use. For me this is english so the `us` file and norwegian `no` file.
 
 Add `include "altgr_emacs(altgr-emacs)"` to the end of the `{xkb_symbols "basic"}` section in the language files you need in `/usr/share/X11/xkb/symbols`
+
+Then log in and out to activate changes
